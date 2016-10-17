@@ -109,6 +109,7 @@ platform_check_image() {
 	psg1218|\
 	psr-680w|\
 	px-4885|\
+	r6220|\
 	rb750gr3|\
 	re6500|\
 	rp-n53|\

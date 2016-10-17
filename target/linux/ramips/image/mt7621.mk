@@ -207,6 +207,14 @@ define Device/wsr-600
 endef
 TARGET_DEVICES += wsr-600
 
+define Device/r6220-spi
+  DTS := R6220_SPI
+  IMAGE_SIZE := $(ralink_default_fw_size_16M)
+  DEVICE_TITLE := Netgear R6220 (SPI Flash)
+  DEVICE_PACKAGES := kmod-usb3
+endef
+TARGET_DEVICES += r6220-spi
+
 define Device/zbt-wg2626
   DTS := ZBT-WG2626
   IMAGE_SIZE := $(ralink_default_fw_size_16M)

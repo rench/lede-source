@@ -550,6 +550,9 @@ ramips_board_detect() {
 	*"WNDR3700v5")
 		name="wndr3700v5"
 		;;
+	*"R6220"*)
+		name="r6220"
+		;;
 	*"WR512-3GN (4M)")
 		name="wr512-3gn-4M"
 		;;
