@@ -107,15 +107,14 @@
 			read-only;
 		};
 
-		factory: partition@40000 {
+		factory: partition@f30000 {
 			label = "factory";
-			reg = <0x40000 0x10000>;
-			read-only;
+			reg = <0xf30000 0x10000>;
 		};
 
 		partition@50000 {
 			label = "firmware";
-			reg = <0x50000 0xfb0000>;
+			reg = <0x50000 0xee0000>;
 		};
 	};
 };
