@@ -2,6 +2,8 @@
 
 #include "mt7621.dtsi"
 
+#include <dt-bindings/input/input.h>
+
 / {
 	model = "Netgear R6220 (SPI Flash)";
 
@@ -15,34 +17,34 @@
 	};
 
 	chosen {
-		bootargs = "console=ttyS0,115200 maxcpus=1";
+		bootargs = "console=ttyS0,115200 maxcpus=2";
 	};
 
 	gpio-leds {
 		compatible = "gpio-leds";
 
 		wps {
-			label = "r6220:green:wps";
+			label = "r6220-spi:green:wps";
 			gpios = <&gpio0 12 1>;
 		};
 
 		usb {
-			label = "r6220:green:usb";
+			label = "r6220-spi:green:usb";
 			gpios = <&gpio0 15 1>;
 		};
 
 		internet {
-			label = "r6220:green:internet";
+			label = "r6220-spi:green:internet";
 			gpios = <&gpio0 13 1>;
 		};
 
 		wifi {
-			label = "r6220:green:wifi";
+			label = "r6220-spi:green:wifi";
 			gpios = <&gpio0 16 1>;
 		};
 
 		power {
-			label = "r6220:green:power";
+			label = "r6220-spi:green:power";
 			gpios = <&gpio0 18 1>;
 		};
 	};
@@ -54,21 +56,21 @@
 		poll-interval = <20>;
 
 		wps {
-			label = "r6220:wps";
+			label = "r6220-spi:wps";
 			gpios = <&gpio0 7 0>;
-			linux,code = <0x211>;
+			linux,code = <KEY_WPS_BUTTON>;
 		};
 
 		wifi {
-			label = "r6220:wifi";
+			label = "r6220-spi:wifi";
 			gpios = <&gpio0 8 0>;
-			linux,code = <0xf7>;
+			linux,code = <KEY_RFKILL>;
 		};
 
 		reset {
-			label = "r6220:reset";
+			label = "r6220-spi:reset";
 			gpios = <&gpio0 14 0>;
-			linux,code = <0x198>;
+			linux,code = <KEY_RESTART>;
 		};
 	};
 

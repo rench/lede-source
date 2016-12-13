@@ -89,7 +89,7 @@ ramips_setup_interfaces()
 	pbr-m1|\
 	psg1208|\
 	psg1218|\
-	r6220|\
+	r6220-spi|\
 	sap-g3200u3|\
 	sk-wb8|\
 	vr500|\
