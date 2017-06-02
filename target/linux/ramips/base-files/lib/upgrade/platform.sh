@@ -65,6 +65,7 @@ platform_check_image() {
 	gl-mt300a|\
 	gl-mt300n|\
 	gl-mt750|\
+	gl-mt300n-v2|\
 	hc5*61|\
 	hc5661a|\
 	hg255d|\
@@ -76,6 +77,7 @@ platform_check_image() {
 	jhr-n805r|\
 	jhr-n825r|\
 	jhr-n926r|\
+	kn|\
 	kn_rc|\
 	kn_rf|\
 	kng_rc|\
@@ -126,6 +128,7 @@ platform_check_image() {
 	rp-n53|\
 	rt5350f-olinuxino|\
 	rt5350f-olinuxino-evb|\
+	rt-ac51u|\
 	rt-g32-b1|\
 	rt-n10-plus|\
 	rt-n13u|\
@@ -277,7 +280,7 @@ platform_nand_pre_upgrade() {
 	esac
 }
 
-platform_pre_upgrade() {
+platform_do_upgrade() {
 	local board=$(ramips_board_name)
 
 	case "$board" in
@@ -286,13 +289,6 @@ platform_pre_upgrade() {
     	ubnt-erx)
 		nand_do_upgrade "$ARGV"
 		;;
-	esac
-}
-
-platform_do_upgrade() {
-	local board=$(ramips_board_name)
-
-	case "$board" in
 	*)
 		default_do_upgrade "$ARGV"
 		;;
