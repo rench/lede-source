@@ -40,7 +40,9 @@ enum ath79_mach_type {
 	ATH79_MACH_AP531B0,			/* Rockeetech AP531B0 */
 	ATH79_MACH_AP90Q,			/* YunCore AP90Q */
 	ATH79_MACH_AP96,			/* Atheros AP96 */
+	ATH79_MACH_ARCHER_C25_V1,		/* TP-LINK Archer C25 V1 board */
 	ATH79_MACH_ARCHER_C5,			/* TP-LINK Archer C5 board */
+	ATH79_MACH_ARCHER_C58_V1,		/* TP-LINK Archer C58 V1 board */
 	ATH79_MACH_ARCHER_C59_V1,		/* TP-LINK Archer C59 V1 board */
 	ATH79_MACH_ARCHER_C60_V1,		/* TP-LINK Archer C60 V1 board */
 	ATH79_MACH_ARCHER_C7,			/* TP-LINK Archer C7 board */
@@ -102,6 +104,7 @@ enum ath79_mach_type {
 	ATH79_MACH_EW_DORIN,			/* embedded wireless Dorin Platform */
 	ATH79_MACH_EW_DORIN_ROUTER,		/* embedded wireless Dorin Router Platform */
 	ATH79_MACH_F9K1115V2,			/* Belkin AC1750DB */
+	ATH79_MACH_FRITZ300E,			/* AVM FRITZ!WLAN Repeater 300E */
 	ATH79_MACH_GL_AR150,			/* GL-AR150 support */
 	ATH79_MACH_GL_AR300,			/* GL-AR300 */
 	ATH79_MACH_GL_AR300M,			/* GL-AR300M */
@@ -224,6 +227,7 @@ enum ath79_mach_type {
 	ATH79_MACH_TL_WA830RE_V2,		/* TP-LINK TL-WA830RE v2 */
 	ATH79_MACH_TL_WA850RE,			/* TP-LINK TL-WA850RE */
 	ATH79_MACH_TL_WA850RE_V2,		/* TP-LINK TL-WA850RE v2 */
+	ATH79_MACH_TL_WA855RE_V1,		/* TP-LINK TL-WA855RE v1 */
 	ATH79_MACH_TL_WA860RE,			/* TP-LINK TL-WA860RE */
 	ATH79_MACH_TL_WA901ND,			/* TP-LINK TL-WA901ND */
 	ATH79_MACH_TL_WA901ND_V2,		/* TP-LINK TL-WA901ND v2 */
@@ -262,6 +266,7 @@ enum ath79_mach_type {
 	ATH79_MACH_TL_WR941ND_V5,		/* TP-LINK TL-WR941ND v5 */
 	ATH79_MACH_TL_WR941ND_V6,		/* TP-LINK TL-WR941ND v6 */
 	ATH79_MACH_TL_WR940N_V4,		/* TP-LINK TL-WR940N v4 */
+	ATH79_MACH_TL_WR942N_V1,		/* TP-LINK TL-WR942N v1 */
 	ATH79_MACH_TUBE2H,			/* Alfa Network Tube2H */
 	ATH79_MACH_UBNT_AIRGW,			/* Ubiquiti AirGateway */
 	ATH79_MACH_UBNT_AIRGWP,			/* Ubiquiti AirGateway Pro */

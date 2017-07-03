@@ -35,6 +35,8 @@ get_status_led() {
 	nbg-419n2|\
 	pwh2004|\
 	r6220|\
+	tl-wr840n-v4|\
+	tl-wr841n-v13|\
 	vr500|\
 	wnce2001|\
 	wndr3700v5|\
@@ -212,6 +214,7 @@ get_status_led() {
 		;;
 	mzk-ex300np|\
 	rt-n10-plus|\
+	tew-638apb-v2|\
 	tew-691gr|\
 	tew-692gr|\
 	ur-326n4g|\

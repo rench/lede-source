@@ -206,6 +206,8 @@ platform_check_image() {
 	ap132|\
 	ap531b0|\
 	ap90q|\
+	archer-c25-v1|\
+	archer-c58-v1|\
 	archer-c59-v1|\
 	archer-c60-v1|\
 	bullet-m|\
@@ -271,6 +273,7 @@ platform_check_image() {
 	tew-712br|\
 	tew-732br|\
 	tew-823dru|\
+	tl-wr942n-v1|\
 	unifi-outdoor|\
 	unifiac-lite|\
 	unifiac-pro|\
@@ -409,6 +412,7 @@ platform_check_image() {
 	tl-wa830re-v2|\
 	tl-wa850re|\
 	tl-wa850re-v2|\
+	tl-wa855re-v1|\
 	tl-wa860re|\
 	tl-wa901nd-v2|\
 	tl-wa901nd-v3|\
@@ -645,6 +649,7 @@ platform_check_image() {
 		return 0;
 		;;
 	# these boards use metadata images
+	fritz300e|\
 	rb-750-r2|\
 	rb-750up-r2|\
 	rb-941-2nd|\
